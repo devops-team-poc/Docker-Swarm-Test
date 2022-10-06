@@ -13,7 +13,8 @@ According to the best Practices , whenever we commit any changes in the code in 
 
 ### What would be the name of each docker version, where would they be stored ?
 
-The name of the docker version will be the - <application-name>:version
+The name of the docker version will be the - application-name:version
+
 And , it will be stored in the Docker Registry (say ECR or Dockerhub).
 
 ### Where could the frontend assets be placed: inside the docker stack/version or somewhere else ?
@@ -26,7 +27,9 @@ CDN and S3 could be used if the frontend is using html,css and js only or some s
 According to the best practices , our application should pass at least these three stages before going to the live deployment -
 
 Development
-Testing 
+
+Testing
+
 Staging  
 
 ### How could these dockers and stages be automated ?
