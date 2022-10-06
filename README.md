@@ -1,4 +1,7 @@
-# Docker-Swarm-Test
+# Dev to Prod Life-cycle
+
+```Small summary and graph(s) on how the provided App deployment could be automated from dev to production```
+
 
 ### How could the versions be managed inside the docker ?
 
